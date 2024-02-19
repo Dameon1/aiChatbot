@@ -15,11 +15,11 @@ const Login = () => {
     try {
       toast.loading("Singing In", {id: "login"})
       await auth?.login(email, password)
-      toast.success("Singed In Successfully", {id: "login"})
+      toast.success("Signed In Successfully", {id: "login"})
     } catch (error) {
-      toast.error("Singed In Failed", {id: "login"})
+      toast.error("Signed In Failed", {id: "login"})
     }
-    console.log(email, password);
+    
   };
   return (
     <Box width={"100%"} height={"100%"} display={"flex"} flex={1}>
