@@ -10,7 +10,7 @@ import { Toaster } from "react-hot-toast";
 
 //change for production and development
 //axios.defaults.baseURL = "http://localhost:5000/api/v1";
-axios.defaults.baseURL = "https://aiserv-d06z.onrender.comhttps://aichatbot-vpjd.onrender.com/api/v1";
+axios.defaults.baseURL = "https://aiserv-d06z.onrender.com/api/v1";
 axios.defaults.withCredentials = true;
 
 const theme = createTheme({
